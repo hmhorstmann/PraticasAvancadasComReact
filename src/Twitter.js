@@ -10,8 +10,8 @@ const areEqual = (prevProps, nextProps) => {
 
 const Twitter = (props) => {
 
-const { loading } = props
-const [tweet, setTweet] = useState('title')
+    const { loading } = props
+    const [tweet, setTweet] = useState('title')
 
     // state = {
     //     tweet: 'title'
@@ -73,20 +73,20 @@ const [tweet, setTweet] = useState('title')
     }
 
     // tweet = () => {
-        // setState({
-        //     tweet: true
-        // })
+    // setState({
+    //     tweet: true
+    // })
     // }
 
-        console.log('Tweet atualizado', tweet)
-        // const { posts } = props
-        // console.log('render', posts)
-        return (
-            <div>
-                <button onClick={handleTweet}>Re-render</button>
-                TeStE
-            </div>
-        )
+    console.log('Tweet atualizado', tweet)
+    // const { posts } = props
+    // console.log('render', posts)
+    return (
+        <div>
+            <button onClick={handleTweet}>Re-render</button>
+            TeStE
+        </div>
+    )
 }
 
 export default memo(Twitter, areEqual)
