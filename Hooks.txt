@@ -1,0 +1,16 @@
+Hooks:
+
+useEffect,
+memo,
+useState
+
+Obs.: Não utilizar dentro de funções JS comuns.
+ - Chamar Hooks em componentes React
+ - Chamar Hooks dentro de Hooks Customizados
+
+Sobre nomenclaturas:
+Stateless
+		- Function Components mo state management)
+Statefull 
+		- Class Components
+		- Function Components (with Hooks)
